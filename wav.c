@@ -57,7 +57,7 @@ void CALLBACK setBuffer(void) {
 int main(void) {
 	int dbgret = 0;
 
-	fp = fopen("test.wav", "rb");
+	fp = fopen("banoa1.wav", "rb");
 	if (fp == NULL) {
 		exit(-1);
 	}
